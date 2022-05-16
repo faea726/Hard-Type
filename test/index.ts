@@ -1,4 +1,3 @@
-import { Provider } from "@ethersproject/abstract-provider";
 import { expect } from "chai";
 import { ethers } from "hardhat";
 import { Tester } from "../typechain";
