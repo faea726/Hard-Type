@@ -14,7 +14,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 
   for (const account of accounts) {
     const balance = await hre.ethers.provider.getBalance(account.address);
-    console.log(account.address, ":", balance.toString());
+    console.log(account.address, balance.toString());
   }
 });
 
