@@ -4,6 +4,16 @@ This project demonstrates an advanced Hardhat use case, integrating other tools 
 
 The project comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts. It also comes with a variety of other tools, preconfigured to work with the project code.
 
+# Installation
+
+Install package manager [Yarn](https://classic.yarnpkg.com/en/)
+
+```shell
+yarn
+```
+
+# Usage
+
 Try running some of the following tasks:
 
 ```shell
@@ -44,3 +54,11 @@ npx hardhat verify --network <network_name> DEPLOYED_CONTRACT_ADDRESS <args>
 # Performance optimizations
 
 For faster runs of your tests and scripts, consider skipping ts-node's type checking by setting the environment variable `TS_NODE_TRANSPILE_ONLY` to `1` in hardhat's environment. For more details see [the documentation](https://hardhat.org/guides/typescript.html#performance-optimizations).
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
